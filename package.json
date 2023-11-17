@@ -1,0 +1,25 @@
+{
+  "name": "chat-gpt-cli",
+  "version": "1.0.0",
+  "description": "A terminal based Chat GPT",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yafet Getachew",
+  "license": "ISC",
+  "bin": {
+    "chat": "node index.js"
+  },
+  "devDependencies": {
+    "@clack/prompts": "^0.7.0",
+    "cleye": "^1.3.2",
+    "openai": "^4.12.1"
+  }
+
+  
+}
+
+
+
